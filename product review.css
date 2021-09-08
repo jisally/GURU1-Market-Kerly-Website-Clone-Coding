@@ -1,0 +1,196 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+div{
+	display: block;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.productreview h2{
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.productreview .detail-box{
+	position: relative;
+}
+
+.detail-box ul{
+	position: relative;
+	left: -40px;
+}
+
+ul .detail-ico{
+	float: left;
+	font-size: 20px;
+	line-height: 18px;
+	color: #514859;
+}
+
+ul .detail-txt{
+	overflow: hidden;
+	padding: 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+ul .ask{
+	font-weight: 700;
+	text-decoration: underline;
+	color: black;
+}
+
+.selectbox{
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	text-align: right;
+}
+
+.selectbox select{
+	margin: 0 2px 0 0;
+	padding-right: 5px;
+	border: 1px solid #bfbfbf;
+	line-height: 34px;
+	height: 34px;
+	padding-bottom: 5px;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table1{
+	border-top: 2px solid #5f0080;
+	font-size: 12px;
+	line-height: 140%;
+	table-layout: fixed;
+	color: #353535;
+}
+
+tbody{
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+table .table-txt{
+	padding: 25px 0 23px;
+	font-size: 12px;
+}
+
+.table-hidden{
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	left: -9999px;
+	widows: 1px;
+	height: 1px;
+	text-indent: -9999px;
+}
+
+.table2{
+	border-top: 1px solid #e3e3e3;
+	font-size: 12px;
+	line-height: 140%;
+	color: #353535;
+	font-weight: 600;
+}
+
+.table2:hover{
+	background: #F2F2F2;
+}
+
+.table2 td{
+	height: auto;
+	padding: 22px 3px 23px;
+	text-align: center;
+}
+
+.table2 .review{
+	padding-left: 50px;
+	text-align: left;
+}
+
+.table2 .hidden{
+	padding: 22px 0 23px;
+	text-align: left;
+}
+
+.table2 .writer{
+	padding: 22px 0 23px;
+	text-align: left;
+	line-height: 19px;
+}
+
+.table2 .time{
+	color: #939393;
+}
+
+.table2 .white{
+	border: 1px solid #a864d7;
+	border-radius: 10px;
+	background: #a864d8;
+	color: white;
+	font-weight: 500;
+	font-size: 11px;
+	padding: 0 2px;
+}
+
+.table2 .friends{
+	border: 1px solid #cba3e8;
+	border-radius: 10px;
+	background: #cba3e9;
+	color: white;
+	font-weight: 500;
+	font-size: 11px;
+	padding: 0 2px;
+}
+
+details summary{
+	list-style: none;
+}
+
+details p{
+	position: relative;
+	left: 25px;
+	font-size: 12px;
+	line-height: 25px;
+	overflow: hidden;
+}
+
+details a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn-area{
+	padding: 10px 0;
+	text-align: right;
+	width: 100%;
+	display: table;
+}
+
+.write{
+	float: right;
+	text-align: center;
+	background-color: #876C93;
+	color: white;
+	font-size: 14px;
+	padding: 7px 35px 7px 35px;
+	margin-top: 10px;
+	border: 1px solid #5f0080;
+}
+
+.write:hover{
+	background: white;
+	color: #5f0080;
+}

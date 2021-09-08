@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>마켓컬리 :: 내일의 장보기, 마켓컬리</title>
+	<link rel="stylesheet" type="text/css" href="detail page 1.css">
+	<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="header">
+		  <div class="deliver"> <!-- 샛별 택배 배송안내 -->
+          <a href="https://www.kurly.com/shop/board/view.php?id=notice&no=64"><img src="https://res.kurly.com/pc/service/common/2011/delivery_210801.png" width="121" height="22"></a>
+          </div>
+
+        <div class="usermenu">
+          <ul class="menu-list">
+              <li class="menu1"><a href="https://www.kurly.com/shop/member/join.php"><b>회원가입</b></a></li>
+              <li class="menu2"><a href="https://www.kurly.com/shop/member/login.php?return_url=%2Fshop%2Fmypage%2Fecho_packing.php"><b>로그인</b></a></li>
+              <li class="menu3"><a href="https://www.kurly.com/shop/board/list.php?id=notice"> 
+                <b>고객센터</b> ▼ </a>
+                  <ul class="menu3_s submenu">
+                    <li><a href="https://www.kurly.com/shop/board/list.php?id=notice"><b>공지사항</b></a></li>
+                    <li><a href="https://www.kurly.com/shop/service/faq.php"><b>자주하는 질문</b></a></li>
+                    <li><a href="javascript:window.alert('로그인하셔야 본 서비스를 이용하실 수 있습니다')"><b>1:1 문의</b></a></li>
+                    <li><a href="javascript:window.alert('로그인하셔야 본 서비스를 이용하실 수 있습니다')"><b>상품 제안</b></a></li>
+                    <li><a href="javascript:window.alert('로그인하셔야 본 서비스를 이용하실 수 있습니다')"><b>에코포장 피드백</b></a></li>
+                  </ul>
+              </li>
+          </ul>
+
+        </div> <!-- usermenu -->     
+
+        <div class="kurlylogo"> <!-- 링크 바꿔 -->
+          <center><div class="logo">
+            <a href="./kurly.html" ><img src="https://res.kurly.com/images/marketkurly/logo/logo_x2.png" alt="마켓컬리 로고" width="103" height="79"></a></center>
+        </div>
+		</div> <!-- header -->
+		<div id="main">
+			<div class="navbar">
+        <ul class="one"> <!-- 첫번째 메뉴(가로) -->
+            <li class="cat"><a href="#"><img src="https://res.kurly.com/pc/service/common/1908/ico_gnb_all_off_x2.png" width="13" height="13"> 전체 카테고리</a>
+          
+              <ul class="two">   <!-- 두번쨰 메뉴 (세로) -->
+                 <li class="sub" ><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_veggies_inactive_pc@2x.1586324570.png" width="23" height="23">&nbsp;채소</a>
+                   <ul class="three"> <!-- 세번쨰 메뉴(세로) -->
+                    <li class="ssub"><a href="#">친환경</a></li>
+                    <li class="ssub"><a href="#">고구마·감자·당근</a></li>
+                    <li class="ssub"><a href="#">시금치·쌈채소·나물</a></li>
+                    <li class="ssub"><a href="#">브로콜리·파프리카·양배추</a></li>
+                    <li class="ssub"><a href="#">양파·대파·마늘·배추</a></li>
+                    <li class="ssub"><a href="#">오이·호박·고추</a></li>
+                    <li class="ssub"><a href="#">냉동·이색·간편채소</a></li>
+                    <li class="ssub"><a href="#">콩나물·버섯</a></li>
+                  </ul>
+                </li>
+
+                <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_fruit_inactive_pc@2x.1568684150.png" width="23" height="23">&nbsp;과일·견과·쌀</a>
+                  <ul class="three">
+                    <li class="ssub"><a href="#">친환경</a></li>
+                    <li class="ssub"><a href="#">제철과일</a></li>
+                    <li class="ssub"><a href="#">국산과일</a></li>
+                    <li class="ssub"><a href="#">수입과일</a></li>
+                    <li class="ssub"><a href="#">간편과일</a></li>
+                    <li class="ssub"><a href="#">냉동·건과일</a></li>
+                    <li class="ssub"><a href="#">견과류</a></li>
+                    <li class="ssub"><a href="#">쌀·잡곡</a></li>
+                   </ul>
+                </li>
+
+                <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_seafood_inactive_pc@2x.1568684352.png" width="23" height="23">&nbsp;수산·해산·건어물</a>
+                  <ul class="three">
+                     <li class="ssub"><a href="#">제철수산</a></li>
+                     <li class="ssub"><a href="#">생선류</a></li>
+                     <li class="ssub"><a href="#">굴비·반건류</a></li>
+                     <li class="ssub"><a href="#">오징어·낙지·문어</a></li>
+                     <li class="ssub"><a href="#">새우·게·랍스터</a></li>
+                     <li class="ssub"><a href="#">해산물·조개류</a></li>
+                     <li class="ssub"><a href="#">수산가공품</a></li>
+                     <li class="ssub"><a href="#">김·미역·해조류</a></li>
+                     <li class="ssub"><a href="#">건어물·다시팩</a></li>
+                      </ul>
+                    </li>
+
+               <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_meat_inactive_pc@2x.1568684452.png" width="23" height="23">&nbsp;정육·계란</a>
+                   <ul class="three">
+                    <li class="ssub"><a href="#">국내산 소고기</a></li>
+                    <li class="ssub"><a href="#">수입산 소고기</a></li>
+                    <li class="ssub"><a href="#">돼지고기</a></li>
+                    <li class="ssub"><a href="#">계란류</a></li>
+                    <li class="ssub"><a href="#">닭·오리</a></li>
+                    <li class="ssub"><a href="#">양념육·돈까스</a></li>
+                    <li class="ssub"><a href="#">양고기</a></li>
+                  </ul>
+                </li>
+
+                <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_side_inactive_pc@2x.1572243579.png" width="23" height="23">&nbsp;국·반찬·메인요리</a>
+                  <ul class="three">
+                      <li class="ssub"><a href="#">국·탕·찌개</a></li>
+                      <li class="ssub"><a href="#">밀키트·메인요리</a></li>
+                      <li class="ssub"><a href="#">밑반찬</a></li>
+                      <li class="ssub"><a href="#">김치·젓갈·장류</a></li>
+                      <li class="ssub"><a href="#">두부·어묵·부침개</a></li>
+                      <li class="ssub"><a href="#">베이컨·햄·통조림</a></li>
+                  </ul>
+                </li>
+
+                <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_convenient_inactive_pc@2x.1572243542.png" width="23" height="23">&nbsp;샐러드·간편식</a>
+                  <ul class="three">
+                      <li class="ssub"><a href="#">샐러드·닭가슴살</a></li>
+                      <li class="ssub"><a href="#">도시락·밥류</a></li>
+                      <li class="ssub"><a href="#">파스타·면류</a></li>
+                      <li class="ssub"><a href="#">떡볶이·튀김·순대</a></li>
+                      <li class="ssub"><a href="#">피자·핫도그·만두</a></li>
+                      <li class="ssub"><a href="#">폭립·떡갈비·안주</a></li>
+                      <li class="ssub"><a href="#">죽·스프·카레</a></li>
+                      <li class="ssub"><a href="#">선식·시리얼</a></li>
+                    </ul>
+                  </li>
+
+                <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_sauce_inactive_pc@2x.1572243594.png" width="23" height="23">&nbsp;면·양념·오일</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">파스타·면류</a></li>
+                      <li class="ssub"><a href="#">식초·소스·드레싱</a></li>
+                      <li class="ssub"><a href="#">양념·액젓·장류</a></li>
+                      <li class="ssub"><a href="#">식용유·참기름·오일</a></li>
+                      <li class="ssub"><a href="#">소금·설탕·향신료</a></li>
+                      <li class="ssub"><a href="#">밀가루·가루·믹스</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_snacks_inactive_pc@2x.1572243615.png" width="23" height="23">&nbsp;생수·음료·우유·커피</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">생수·탄산수</a></li>
+                      <li class="ssub"><a href="#">음료·주스</a></li>
+                      <li class="ssub"><a href="#">우유·두유·요거트</a></li>
+                      <li class="ssub"><a href="#">커피</a></li>
+                      <li class="ssub"><a href="#">차</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_cookie_inactive_pc.1610074008.png" width="23" height="23">&nbsp;간식·과자·떡</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">과자·스낵·쿠키</a></li>
+                      <li class="ssub"><a href="#">초콜릿·젤리·캔디</a></li>
+                      <li class="ssub"><a href="#">떡·한과</a></li>
+                      <li class="ssub"><a href="#">아이스크림</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_deli_inactive_pc@2x.1568687352.png" width="23" height="23">&nbsp;베이커리·치즈·델리</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">식빵·빵류</a></li>
+                      <li class="ssub"><a href="#">잼·버터·스프레드</a></li>
+                      <li class="ssub"><a href="#">케이크·파이·디저트</a></li>
+                      <li class="ssub"><a href="#">치즈</a></li>
+                      <li class="ssub"><a href="#">델리</a></li>
+                      <li class="ssub"><a href="#">올리브·피클</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_health_inactive_pc@2x.1574645922.png" width="23" height="23">&nbsp;건강식품</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">영양제</a></li>
+                      <li class="ssub"><a href="#">유산균</a></li>
+                      <li class="ssub"><a href="#">홍산·인삼·꿀</a></li>
+                      <li class="ssub"><a href="#">건강즙·건강음료</a></li>
+                      <li class="ssub"><a href="#">건강분말·건강환</a></li>
+                      <li class="ssub"><a href="#">다이어트·이너뷰티</a></li>
+                      <li class="ssub"><a href="#">유아동</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_living_inactive_pc@2x.1588814089.png" width="23" height="23">&nbsp;생활용품·리빙</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">휴지·티슈</a></li>
+                      <li class="ssub"><a href="#">여성·위생용품</a></li>
+                      <li class="ssub"><a href="#">세제·청소용품</a></li>
+                      <li class="ssub"><a href="#">화훼·인테리어소품</a></li>
+                      <li class="ssub"><a href="#">의약외품·마스크</a></li>
+                      <li class="ssub"><a href="#">생활잡화·문구</a></li>
+                      <li class="ssub"><a href="#">캠핑용품</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_beauty_inactive_pc.1618488987.png" width="23" height="23">&nbsp;스킨케어·메이크업</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">스킨·미스트·패드</a></li>
+                      <li class="ssub"><a href="#">에센스·앰플·로션</a></li>
+                      <li class="ssub"><a href="#">크림·오일</a></li>
+                      <li class="ssub"><a href="#">클렌징</a></li>
+                      <li class="ssub"><a href="#">마스크팩</a></li>
+                      <li class="ssub"><a href="#">선케어</a></li>
+                      <li class="ssub"><a href="#">메이크업</a></li>
+                      <li class="ssub"><a href="#">맨즈케어</a></li>
+                      <li class="ssub"><a href="#">뷰티소품·기기</a></li>              
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_body_inactive_pc.1618528534.png" width="23" height="23">&nbsp;헤어·바디·구강</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">구강·면도</a></li>
+                      <li class="ssub"><a href="#">샴푸·컨디셔너</a></li>
+                      <li class="ssub"><a href="#">트리트먼트·팩</a></li>
+                      <li class="ssub"><a href="#">헤어에센스·염모</a></li>
+                      <li class="ssub"><a href="#">바디워시·스크럽</a></li>
+                      <li class="ssub"><a href="#">바디로션·크림</a></li>
+                      <li class="ssub"><a href="#">핸드·립·데오</a></li>
+                      <li class="ssub"><a href="#">헤어·바디소품</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_electronic__inactive_pc@2x.1574417978.png" width="23" height="23">&nbsp;가전제품</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">주방소모품·잡화</a></li>
+                      <li class="ssub"><a href="#">주방·조리도구</a></li>
+                      <li class="ssub"><a href="#">냄비·팬·솥</a></li>
+                      <li class="ssub"><a href="#">보관용기·텀블러</a></li>
+                      <li class="ssub"><a href="#">식기·테이블웨어</a></li>
+                      <li class="ssub"><a href="#">컵·잔·커피도구</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_kitchen_inactive_pc@2x.1574646457.png" width="23" height="23">&nbsp;주방용품</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">주방소모품·잡화</a></li>
+                      <li class="ssub"><a href="#">주방·조리도구</a></li>
+                      <li class="ssub"><a href="#">냄비·팬·솥</a></li>
+                      <li class="ssub"><a href="#">보관용기·텀블러</a></li>
+                      <li class="ssub"><a href="#">식기·테이블웨어</a></li>
+                      <li class="ssub"><a href="#">컵·잔·커피도구</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_kids_inactive_pc@2x.1568687537.png" width="23" height="23">&nbsp;베이비·키즈</a>
+                    <ul class="three">
+                        <li class="ssub"><a href="#">분유·간편 이유식</a></li>
+                        <li class="ssub"><a href="#">이유식 재료</a></li>
+                        <li class="ssub"><a href="#">간편·음식·음료</a></li>
+                        <li class="ssub"><a href="#">건강식품</a></li>
+                        <li class="ssub"><a href="#">이유·수유용품</a></li>
+                        <li class="ssub"><a href="#">세제·위생용품</a></li>
+                        <li class="ssub"><a href="#">스킨·구강케어</li>
+                        <li class="ssub"><a href="#">완구·잡화류</a></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="sub"><a href="#"><img src="https://img-cf.kurly.com/shop/data/category/icon_pet_inactive_pc@2x.1587442293.png" width="23" height="23">&nbsp;반려동물</a>
+                    <ul class="three">
+                      <li class="ssub"><a href="#">강아지 간식</a></li>
+                      <li class="ssub"><a href="#">강아지 주식</a></li>
+                      <li class="ssub"><a href="#">고양이 간식</a></li>
+                      <li class="ssub"><a href="#">고양이 주식</a></li>
+                      <li class="ssub"><a href="#">반려동물 용품</a></li>
+                      <li class="ssub"><a href="#">배변·위생</a></li>
+                      <li class="ssub"><a href="#">소용량·샘플</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="cat" id="cat2"><div class="bestcolor"><a href="./new product.html">신상품</a></div></li>
+              <li class="cat" id="cat2"><a href="./best.html">베스트</a></li>
+              <li class="cat" id="cat2"><a href="./shopping.html">알뜰쇼핑</a></li>
+              <li class="cat" id="cat2"><a href="./benefit.html">특가/혜택</a></li>
+            </ul>
+
+            <div class="search-container">
+              <input type="text" name="" class="input"></form></div>
+            <div class="search-button">
+              <button type="submit" class="button"><img src="https://res.kurly.com/pc/service/common/1908/ico_search_x2.png" width="30"height="30"></button>
+            </div>
+
+            <div class="navbar_loca">
+              <a href="#"><img src="https://res.kurly.com/pc/ico/2008/ico_delivery_setting.svg?ver=1" width="36" height="36"></a>
+            </div>
+
+            <div class="navbar_basket">
+              <a href="#"><img src="https://res.kurly.com/pc/service/common/2011/ico_cart.svg" width="36" height="36"></a>
+            </div>
+
+
+        </div> <!-- navbar -->
+
+        <script>
+
+        jQuery(document).ready(function($) {
+
+        $(".scroll").click(function(event){            
+
+        event.preventDefault();
+
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+
+        });
+
+        });
+
+        </script>
+
+			<div id="content">
+				<div class="goods">
+					<div class="goods-info">
+						<div class="goods-img">
+							<img src="https://img-cf.kurly.com/shop/data/goods/1627273760807l0.jpg">
+						</div>
+						<div class="goods-name">
+							<br><br>
+							<span class="name">[포인트] 딥클린 비타휩 클렌징 폼 175g</span>
+							<span class="info">피부에 생기를 전하는 비타민 클렌징 폼</span>
+						</div>
+						<div class="goods-price">
+							<span class="price">6,500<span>원</span></span>
+							<span class="price-info">로그인 후, 적립혜택이 제공됩니다.</span>
+						</div>
+						<div class="goods-detail">
+							<dl>
+								<dt class="sort">판매단위</dt>
+								<dd class="detail">1개</dd>
+							</dl>
+							<dl class="division">
+								<dt class="sort">배송구분</dt>
+								<dd class="detail">샛별배송/택배배송</dd>
+							</dl>
+							<dl class="division">
+								<dt class="sort">포장타입</dt>
+								<dd class="detail">상온/종이포장<strong class="packing">택배배송은 에코포장이 스티로폼으로 대체됩니다.</strong></dd>
+							</dl>
+							<dl class="division">
+								<dt class="sort">구매수량</dt>
+								<dd>
+									<div id="btn-group">
+										<button id="sign-btn"><b>-</b></button>
+										<button id="num-btn">1</button>
+										<button id="sign-btn"><b>+</b></button>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<div class="goods-total-price">
+							<span class="total-price">총 상품금액 : </span>
+							<span class="total-num">6,500</span>
+							<span class="total-won">원</span>
+						</div>
+						<div class="accumulate">
+							<span class="yellow-btn">적립</span>
+							<span class="login">로그인 후, 적립혜택 제공</span>
+						</div>
+						<div class="last-btn">
+							<span class="alert">재입고 알림</span>
+							<span class="basket">장바구니 담기</span>
+						</div>
+					</div>
+				</div>
+				<div class="goods-explain">
+					<div id="goods-information">
+						<div class="goodsbtn">
+							<a href="#item-explain" class="scroll"><div class="btn"> 상품설명</div></a>
+							<a href="#product-image" class="scroll"><div class="btn">상세정보</div></a>
+							<a href="#goods-review" class="scroll"><div class="btn">후기</div></a>
+							<a href="#goods-qna" class="scroll"><div class="btn">문의</div></a>
+						</div>
+					</div>
+					<div id="goods-content">
+						<div class="item-all">
+							<div id="item-explain">
+								<img src="https://img-cf.kurly.com/shop/data/goodsview/20210726/gv40000205743_1.jpg" style="max-width: 100%;">
+							</div>
+							<div class="item-explain-txt">
+								<h3>
+									<small>피부에 생기를 전하는 비타민 클렌징 폼</small><br>
+									[포인트]
+									<br>
+									딥클린 비타휩 클렌징 폼
+								</h3>
+								<p>
+									클렌징 전문 브랜드, 포인트의 딥클린 비타휩 클렌징 폼을 소개할게요. 비타민 C 성분인 아스코빅애씨드와 피부에 생기를 전하는 오렌지, 레몬 추출물 등을 함유했어요. 물을 묻혀주면 쫀쫀한 휩 타입 거품이 풍성하게 형성되는데요. 피부 노폐물과 메이크업 잔여물을 개운하고 말끔하게 클렌징해주죠. 데일리로 꾸준히 사용하여 한결 맑아진 피부톤을 만나보세요.
+								</p>
+							</div>
+							<div class="item-point">
+								<h3>
+									<span class="item-line-one"></span>
+									<span class="checkpoint">Kurly's Check Point</span>
+									<span class="item-line-two"></span>
+								</h3>
+								<div class="item-img">
+									<img src="https://img-cf.kurly.com/shop/data/goodsview/20210726/gv20000205797_1.jpg">
+								</div>
+							</div>
+							<div class="item-tip">
+								<h3>
+									<span class="tip-line-one"></span>
+									<span class="tip">Kurly's Tip</span>
+									<span class="tip-line-two"></span>
+									<span class="tip-line-three"></span>
+								</h3>
+								<div class="grade">
+									<span class="grade-confirm"><b>성적서를 확인하세요</b></span><br>
+									<span class="testing">· 시험 기관 : <span style="color: #6E6E6E;">KC피부임상연구센터</span></span>
+									<br>
+									<span class="testing">· 시험 결과 : <span style="color: #6E6E6E;">4주 사용으로 피부톤 개선에 도움을 줄 수 있는 제품으로 판단</span></span>
+								</div>
+								<div class="grade-view">
+									<div class="grade-report">
+										<span class="tip-line-four"></span>
+								    </div>
+								    <span class="tip-line-five"></span>
+								</div>
+							</div>
+							<div class="item-pick">
+								<h3>
+									<span class="pick-line-one"></span>
+									<span class="pick">Kurly's Pick</span>
+									<span class="pick-line-two"></span>
+								</h3>
+								<div class="pick-img">
+									<img src="https://img-cf.kurly.com/shop/data/goodsview/20210726/gv40000205747_1.jpg">
+								</div>
+								<p class="pick-txt">
+									<span style="font-size: 30px;"><b>딥클린 비타휩 클렌징 폼</b></span><br><br>
+									<span><b>· 제형</b>:되직한 제형으로, 물을 묻혀주면 몽글몽글하고 쫀쫀한 거품이 풍성하게 형성돼요.</span><br>
+									<span><b>· 향</b>:비타민 음료 같은 상큼한 향이 느껴져요.</span><br>
+									<span><b>· 사용감</b>:세정력이 우수해서 개운하고 뽀득뽀득하게 클렌징돼요. 건성인 분들은 마무리감이 살짝 건조하다고 느낄 수 있어요.</span>
+								</p>
+							</div>
+							<div class="item-tip">
+								<h3>
+									<span class="tip-line-one"></span>
+									<span class="tip">Kurly's Tip</span>
+									<span class="tip-line-two"></span>
+									<span class="tip-line-three" style="height: 234px;"></span>
+								</h3>
+								<div class="grade">
+									<span class="grade-confirm"><b>사용법</b></span><br>
+									<span class="testing" style="color: #6E6E6E;">1. 적당량을 덜고 물을 묻혀 거품을 충분히 만들어주세요.</span>
+									<br>
+									<span class="testing" style="color: #6E6E6E;">2. 얼굴 전체를 부드럽게 문지르고 미온수로 깨끗이 행궈내세요.</span>
+								</div>
+								<div class="grade-view">
+									<div class="grade-report">
+										<span class="tip-line-four" style="height: 234px; margin-top: -18px;"></span>
+								    </div>
+								    <span class="tip-line-five"></span>
+								</div>
+							</div>
+							<div class="item-note">
+								<h3>
+									<span class="note">Kurly's Note</span>
+									<span class="note-line"></span>
+								</h3>
+								<div class="note-img">
+									<img src="https://img-cf.kurly.com/shop/data/goodsview/20210726/gv00000205801_1.jpg" width="1010px" height="963px">
+								</div>
+								<div class="note-think">
+									<p class="think">
+										<b style="font-size: 30px;">EWG에 대한 컬리의 생각</b>
+										<br><br>
+										<span>컬리는 화장품, 치약, 세제 등 우리의 인체에 닿는 리빙 제품의 전성분을 공개하고 성분의 위험 정도를 EWG 기준에 따라 1~10 숫자로 안내하고 있습니다. EWG가 세계적으로 널리 사용되는 신뢰할 수 있는 척도인 것은 맞지만, 상품의 안전성을 증명하는 절대적인 기준은 아니에요. EWG로부터 좋지 못한 평가를 받은 성분에 대해 전문가와 유관기관은 '권고 기준치를 지켜 사용할 경우 무해하다'고 평가하기도 합니다. 이에 걸리는 EWG 등급과 인터넷에 떠도는 단편적인 정보에만 의존하지 않고 식품의약품안전처, 에코서트(ECOCERT), 미국식품의약국(FDA), 미국화장품원료검토위원회(CIR)등 공신력 있는 인증기관의 의견을 참고하여 유해성 여부를 꼼꼼하게 따져 보고 있습니다.</span>
+										<br><br>
+										<b>[EWG 성분 체크하기]</b>
+										<br>
+										<span>컬리는 EWG로부터 보통, 위험 등급을 받은 성분이라 하더라도 숨기지 않고 정직하게 공개합니다. 더불어 우려되는 성분에 대한 정보를 함께 제공해 드리오니 구입 전 반드시 확인해 주세요.</span>
+										<br><br>
+										<span><b>· 피이지-8 : </b>보습제, 용제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 피이지-14M : </b>결합제, 유화안정제, 점도증가제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 리날룰 : </b>착향제, 체취방지제, 마스킹제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 폴리쿼터늄-7 : </b>정전기방지제, 피막형성제, 모발고정제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 페녹시에탄올 : </b>착향제, 보존제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 포타슘하이드록사이드 : </b>pH조정제, 완충화제의 목적으로 사용되는 성분입니다.</span><br>
+										<span><b>· 리모넨 : </b>착향제, 용제의 목적으로 사용되는 성분입니다.</span><br>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-info">
+					<div>
+						<img src="https://img-cf.kurly.com/shop/data/goodsview/20210726/gv30000205799_1.jpg" id="product-image">
+					</div>
+					<table class="table-all">
+						<tbody>
+							<tr>
+								<th>용량 또는 중량</th>
+								<td>상품설명 및 상품이미지참조</td>
+								<th>제조국</th>
+								<td>상품설명 및 상품이미지참조</td>
+							</tr>
+							<tr>
+								<th>제품 주요 사양(피부타입, 색상(호, 번) 등)</th>
+								<td>상품설명 및 상품이미지참조</td>
+								<th>화장품법에 따라 기재·표시하여야 하는 모든 성분</th>
+								<td>상품설명 및 상품이미지참조</td>
+							</tr>
+							<tr>
+								<th>사용기한 또는 개봉 후 사용기간(개봉 후 사용기간을 기재할 경우에는 제조연월일을 병행 표기)</th>
+								<td>제품 별도 라벨 표기 참조</td>
+								<th>기능성 화장품의 경우 화장품 법에 따른 식품의약품안전처심사 필 유무(미백, 주름개선, 자외선차단, 태닝오일, 염색약, 탈모샴푸 등)</th>
+								<td>해당사항 없음</td>
+							</tr>
+							<tr>
+								<th>사용방법</th>
+								<td>상품설명 및 상품이미지참조</td>
+								<th>사용할 때 주의사항</th>
+								<td>상품설명 및 상품이미지참조</td>
+							</tr>
+							<tr>
+								<th>화장품제조업자 및 화장품책임판매업자</th>
+								<td>상품설명 및 상품이미지참조</td>
+								<th rowspan="2">품질보증기준</th>
+								<td rowspan="2">본 제품에 이상이 있을 경우 공정거래위원회 고시 소비자 분쟁해결 기준에 의해 보상해드립니다.</td>
+							</tr>
+							<tr>
+								<th>소비자상담 관련 전화번호</th>
+								<td>마켓컬리 고객행복센터(1644-1107)</td>
+							</tr>
+						</tbody>
+					</table>
+				<div class="why-kurly">
+					<div class="why-kurly-txt">
+						<span><b>WHY KURLY</b></span>
+					</div>
+					<div class="why-kurly-info">
+						<div class="why-kurly-detail">
+							<ul>
+								<li><img src="https://res.kurly.com/pc/ico/1910/01_check.svg" width="40px" height="40px"></li>
+							    <li class="whytxt1">깐깐한 상품위원회</li>
+							    <li class="whytxt2">나와 내 가족이 먹고 쓸 상품을 고르는<br>마음으로 매주 상품을 직접 먹어보고,<br>경험해보고성분,맛,안전성 등 다각도의<br>기준을 통과한 상품만을 판매합니다.</li>
+						    </ul>
+						    <ul>
+								<li><img src="https://res.kurly.com/pc/ico/1910/02_only.svg" width="40px" height="40px"></li>
+							    <li class="whytxt1">차별화된 Kurly Only 상품</li>
+							    <li class="whytxt2">전국 각지와 해외의 훌룡한 생산자가<br>믿고 선택하는 파트너,마켓컬리.<br>3천여 개가 넘는 컬리 단독 브랜드,스펙의<br>Kurly Only 상품을 믿고 만나보세요.</li>
+							    <li class="whytxt2"><small>(온라인 기준 / 자사몰, 직구 제외)</small></li>
+						    </ul>
+						    <ul>
+								<li><img src="https://res.kurly.com/pc/ico/1910/03_cold.svg" width="40px" height="40px"></li>
+							    <li class="whytxt1">신선화된 풀콜드체인 배송</li>
+							    <li class="whytxt2">온라인 업계 최초로 산지에서 문 앞까지<br>상온,냉장,냉동 상품을 분리 포장 후<br>최적의 온도를 유지하는 냉장 배송 시스템,<br>풀콜드체인으로 상품을 신선하게 전해드립니다.</li>
+							    <li class="whytxt2"><small>(샛별배송에 한함)</small></li>
+						    </ul>
+						    <ul class="four">
+								<li><img src="https://res.kurly.com/pc/ico/1910/04_price.svg" width="40px" height="40px"></li>
+							    <li class="whytxt1">고객,생산자를 위한 최선의 가격</li>
+							    <li class="whytxt2">매주 대형 마트와 주요 온라인 마트의 가격<br>변동 상황을 확인해 신선식품은 풀질을<br>타협하지 않는 선에서 최선의 가격으로,<br>가공식품은 언제나 합리적인 가격으로<br>정기 조정합니다.</li>
+						    </ul>
+						    <ul class="five">
+								<li><img src="https://res.kurly.com/pc/ico/1910/05_eco.svg" width="40px" height="40px"></li>
+							    <li class="whytxt1">환경을 생각하는 지속 가능한 유통</li>
+							    <li class="whytxt2">친환경 포장재부터 생산자가 상품에만<br>집중할 수 있는 직매입 유토구조까지,<br>지속 가능한 유통을 고민하여 컬리를 있게<br>하는 모든 환경(생산자,커뮤니티,직원)이<br>더 나아질 수 있도록 노력합니다.</li>
+						    </ul>
+					    </div>
+					</div>
+				</div>
+				<div class="customer">
+					<div class="customer-box">
+						<span class="customer-title">고객행복센터</span><br><br>
+						<p>
+							<span class="customer-q"><b>궁금하신 점이나 서비스 이용에 불편한 점이 있으신가요?</b></span>
+						    <br>
+						    <span>문제가 되는 부분을 사진으로 찍어 아래 중 편하신 방법으로 접수해 주시면 빠르게 도와드리겠습니다.</span>
+						</p>
+					<div class="ul-box">
+						<ul>
+							<li class="customertxt1">&#124; 전화 문의 1644-1107</li>
+							<li class="customertxt2">오전 7시~오후 7시 (연중무휴)</li>
+						</ul>
+						<ul>
+							<li class="customertxt1">&#124; 카카오톡 문의</li>
+							<li class="customertxt2">오전 7시~오후 7시 (연중무휴)</li>
+							<li class="customertxt2"><small>카카오톡에서 '마켓컬리'를 검색 후<br>대화창에 문의 및 불편사항을<br>남겨주세요.</small></li>
+						</ul>
+						<ul style="margin-right: 30px;">
+							<li class="customertxt1">&#124; 홈페이지 문의</li>
+							<li class="customertxt2">24시간 접수 가능<br>로그인&#62;마이컬리&#62;1:1 문의</li>
+							<li class="customertxt2"><small>고객센터 운영 시간에 순차적으로<br>답변해드리겠습니다.</small></li>
+						</ul>
+					</div>
+					</div>
+					<hr style="border: solid 1px #ddd; margin-bottom: 20px;">
+					<div class="ordercancel">
+						<span class="cancelleft">주문 취소 안내</span>
+						<ul class="order-cancel">
+							<li><b>[입금 확인] 단계</b> 마이컬리&#62;주문 내역 상세페이지에서 직접 취소하실 수 있습니다.</li>
+							<li><b>[입금 확인] 이후 단계</b> 고객행복센터로 문의해주세요.</li>
+							<li><b>결제 승인 취소 / 환불</b> 결제 수단에 따라 영업일 기준 3~7일 내에 처리해드립니다.</li>
+						</ul>
+						<details>
+							<summary>자세히 보기 <span> ∨</span></summary>
+							<hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+							<p style="position: relative; left: 180px; ">
+								<br><b>주문 취소 관련</b><br>
+								<b>· </b>[상품 준비 중] 이후 단계에는 취소가 제한되는 점 고객님의 양해 부탁드립니다.<br>
+								<b>· </b>비회원은 모바일 App / Web > 마이컬리 > 비회원 주문 조회 페이지에서 주문을 취소하실 수 있습니다.<br>
+								<b>· </b>일부 예약 상품은 배송 3~4일 전에만 취소하실 수 있습니다.<br>
+								<b>· </b>주문 상품의 부분 취소는 불가능합니다. 전체 주문 취소 후 재구매해 주세요.
+								<br><br>
+								<b>결제 승인 취소 / 환불 관련</b><br>
+								<b>· </b>카드 환불은 카드사 정책에 따르며, 자세한 사항은 카드사에 문의해주세요.<br>
+								<b>· </b>결제 취소 시, 사용하신 적립금과 쿠폰도 모두 복원됩니다.
+							</p>
+						</details>
+					    <hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+					    <span class="cancelleft">교환 및 환불 안내</span>
+					    <ul><li>고객님의 단순 변심으로 인한 반품은 어려울 수 있으니 양해 부탁드립니다.</li></ul>
+					    <details>
+							<summary style="position: relative; top: 1px;">자세히 보기 <span> ∨</span></summary>
+							<hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+							<p class="item-problem"><b>01. 받으신 상품에 문제가 있는 경우</b><br></p>
+							<p class="problem-explain">
+								<span>상품이 표시·광고 내용과 다르거나 부패한 경우 등 상품에 문제가 있는 정도에 따라<br>재배송, 일부 환불, 전액 환불해드립니다.</span>
+								<br><br>
+								<span style="color: #5f0080;"><b>신선 / 냉장 / 냉동 식품</b></span>
+								<br>
+								<span>상품을 받은 날로부터 2일 이내에 상품 상태를 확인할 수 있는 사진을 첨부해 1:1 문의 게시판에 남겨주세요.</span>
+								<br><br>
+								<span style="color: #5f0080;"><b>유통기한 30일 이상 식품(신선 / 냉장 / 냉동 제외) &amp; 기타 상품</b></span>
+								<br>
+								<span>상품은 받은 날로부터 3개월 이내 또는 문제가 있다는 사실을 알았거나 알 수 있었던 날부터 30일 이내에<br>상품의 상태를 확인할 수 있는 사진을 첨부해 1:1 문의 게시판에 남겨주세요.</span>
+								<br><br>
+								<span>&#42; 상품에 문제가 있는 것으로 확인되면 배송비는 컬리가 부담합니다.</span>
+							</p>
+							<hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+							<p class="item-problem"><b>02. 단순 변심, 주문 착오의 경우</b><br></p>
+							<p class="problem-explain">
+								<span style="color: #5f0080;"><b>신선 / 냉장 / 냉동 식품</b></span>
+								<br>
+								<span>재판매가 불가한 상품의 특성상,단순 변심,주문 착오 시 교환 및 반품이 어려운 점 양해 부탁드립니다.<br>상품에 따라 조금씩 맛이 다를 수 있으며, 개인의 기호에 따라 같은 상품도 다르게 느끼실 수 있습니다.</span>
+								<br><br>
+								<span style="color: #5f0080;"><b>유통기한 30일 이상 식품(신선 / 냉장 / 냉동 제외) &amp; 기타 상품</b></span>
+								<br>
+								<span>상품을 받은 날로부터 7일 이내에 1:1 문의 게시판에 남겨주세요.</span>
+								<br><br>
+								<span>&#42; 단순 변심으로 인한 교환 또는 환불의 경우 고객님께 배송비 6,000원을 부담하셔야 합니다.<br>(주문 건 배송비를 결제하셨을 경우 3,000원)</span>
+							</p>
+							<hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+							<p class="item-problem"><b>03. 교환·반품이 불가한 경우</b><br></p>
+							<p class="problem-explain">
+								<span>다음에 해당하는 교환·반품 신청은 처리가 어려울 수 있으니 양해 부탁드립니다.</span>
+								<br><br>
+								<span>&#8226; 소비자에게 책임 있는 사유로 상품이 멸실 또는 훼손된 경우<br>(포장지 훼손으로 인해 재판매가 불가능한 상품의 경우, 단순 변심에 의한 반품이 어렵습니다.)</span>
+								<br>
+								<span>&#8226; 일부 예약 상품은 배송 3~4일 전에만 취소하실 수 있습니다.</span>
+								<br>
+								<span>&#8226; 소비자 주문에 따라 개별적으로 생산되는 상품이 이미 제작 진행된 경우</span>
+							</p>
+						</details>
+					    <hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+					    <span class="cancelleft">배송관련 안내</span>
+					    <ul><li>배송 과정 중 기상 악화 및 도로교통 상황에 따라 부득이하게 지연 배송이 발생될 수 있습니다.</li></ul>
+					    <hr style="border: solid 1px #ddd; width: 100%; margin-bottom: 20px;">
+					</div>
+				</div>
+				<div id="goods-review">
+					<div>
+						<iframe src="./product review.html" width="100%" height="600" frameborder="0"  scrolling="no" ></iframe>
+					</div>
+				</div>
+				<div id="goods-qna">
+					<div class="productqna">
+						<span><b>PRODUCT Q&amp;A</b></span><br><br>
+						<span class="qna-info"><b>·</b> 상품에 대한 문의를 남기는 공간입니다. 해당 게시판의 성격과 다른 글은 사전동의 없이 담당 게시판으로 이동될 수 있습니다.</span><br>
+						<span class="qna-info"><b>·</b> 배송관련,주문(취소/교환/환불)관련 문의 및 요청사항은 마이컬리 내 1:1문의에 남겨주세요.</span>
+				    </div>
+				    <div class="qna-box">
+				    	<div class="qna-header">
+				    		<div style="width: 710px;">제목</div>
+				    		<div>작성자</div>
+				    		<div>작성일</div>
+				    		<div>답변상태</div>
+				    	</div>
+				    	<ul>
+				    		<li style="height: 61px;">
+				    			<div class="detail1">
+				    				<span>공지</span>
+				    				<b>판매 (일시)중단 제품 안내 (21.07.30 업데이트)</b>
+				    			</div>
+				    			<div class="detail2">
+				    				<span>Marketkurly</span>
+				    				<span style="position: relative; left: 25px;">2017.02.01</span>
+				    				<span style="position: relative; left: 90px;">-</span>
+				    			</div>
+				    		</li>
+				    	</ul>
+				    	<details style="position: relative; top: -120px;">
+				    		<summary style="color: white; font-size: 5px; width: 100%; position: relative; top: -10px">-</summary>
+				    		<p>
+				    			<br>
+				    			안녕하세요. 마켓컬리 입니다.
+				    			<br><br>
+				    			하기와 같은 사유로 인하여 판매 (일시)중단 되었음을 안내드립니다.
+				    			<br><br>
+				    			<img src="https://lacms-board.kurly.com/board/notice/20210804/f1723ea3-8814-4efc-a666-eef6fb7961f0.png" width="1010px">
+				    			<br><br>
+				    			감사합니다.
+				    			<br><br>
+				    			마켓컬리 드림
+				    			<br><br>
+				    		</p>
+				    	</details>
+				    	<hr style="border: 1px solid #FAFAFA; position: relative; top: -80px; ">
+				    	
+				    	<div>
+				    		<center>등록된 문의가 없습니다.</center>
+				    	</div>
+				    	<hr style="border: 1px solid #FAFAFA; position: relative; bottom: -80px;">
+				    	<a href="https://www.kurly.com/shop/member/login.php?return_url=%2Fshop%2Fgoods%2Fgoods_view.php%3F%26goodsno%3D81159"><button class="qna-btn">
+				    		<span>문의하기</span></a>
+				    	</button>
+				    </div>
+				</div>
+				</div>
+				</div>
+				
+			</div>
+			<div id="footer">
+			<div class="footer-up">
+			<div class="footer-left">
+				<h2>고객행복센터</h2>
+				<div class="footer-left-left">
+					<h3>1644-1107</h3>
+					<span class="box">카카오톡 문의</span>
+					<br>
+					<span class="box">1:1 문의</span>
+				</div>
+				<div class="footer-left-right">
+					<span class="black">365고객센터</span>
+					<br>
+					<span class="gray">오전 7시 - 오후 7시</span>
+					<br><br>
+					<span class="black">365고객센터</span>
+					<br>
+					<span class="gray">오전 7시 - 오후 7시</span>
+					<br><br>
+					<span class="black">24시간 접수 가능</span>
+					<br>
+					<span class="gray">고객센터 운영시간에 순차적으로 답변해드리겠습니다.</span>
+				</div>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li class="kurly-info"><a href="https://www.kurly.com/shop/introduce/about_kurly.php" class="site-link">컬리소개</a></li>
+					<li class="kurly-info"><a href="https://www.youtube.com/embed/WEep7BcboMQ?rel=0&showinfo=0&wmode=opaque&enablejsapi=1" class="site-link">컬리소개영상</a></li>
+					<li class="kurly-info"><a href="https://marketkurly.recruiter.co.kr/appsite/company/index" class="site-link" target="_blank">인재채용</a></li>
+					<li class="kurly-info"><a href="https://www.kurly.com/shop/service/agreement.php" class="site-link">이용약관</a></li>
+					<li class="kurly-info"><a href="https://www.kurly.com/shop/service/private.php" class="site-link"><b>개인정보처리방침</b></a></li>
+					<li class="kurly-info"><a href="https://www.kurly.com/shop/service/guide.php" class="site-link">이용안내</a></li>
+				</ul>
+				<div class="company"><b>
+					법인명(상호) : 주식회사 컬리 <span class="gray-line"><b>&#124;</b></span> 사업자등록번호 : 261-81-23567 <span class="purple-link"><a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2618123567&apv_perm_no=" style="text-decoration: none; color: #5f0080;" target="_blank">사업자정보 확인</a></span>
+					<br>
+					통신판매업 : 제 2018-서울강남-01646 호 <span class="gray-line"><b>&#124;</b></span> 개인정보보호책임자 : 이원준
+					<br>
+					주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동)  <span class="gray-line"><b>&#124;</b></span> 대표이사 : 김슬아
+					<br>
+					입점문의 : <span class="purple-link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSH9H9Igvzu3zoJw9HAWQ7NCRXu0MAvdaypElo_oiEXWDzgw/viewform" style="text-decoration: none; color:#5f0080" target="_blank">입점문의하기</a></span> <span class="gray-line"><b>&#124;</b></span> 제휴문의 : <span class="purple-link">business@kurlycorp.com</span>
+					<br>
+					채용문의 : <span class="purple-link">recruit@kurlycorp.com</span>
+					<br>
+					팩스 : 070 -7500 - 6908 <span class="gray-line"><b>&#124;</b></span> 이메일 : <span class="purple-link">help@kurlycorp.com</span>
+					<br><br>
+					&copy; KURLY CORP.ALL RIGHTS RESERVED</b>
+				</div>
+				<ul style="list-style-type: none;">
+					<li class="sns">
+						<a href="https://www.instagram.com/marketkurly/" target="_blank">
+						<img src="https://res.kurly.com/pc/ico/1810/ico_instagram.png" width="30px" height="30px"></a>
+					</li>
+					<li class="sns">
+						<a href="https://www.facebook.com/marketkurly" target="_blank">
+						<img src="https://res.kurly.com/pc/ico/1810/ico_fb.png" width="30px" height="30px"></a>
+					</li>
+					<li class="sns">
+						<a href="https://blog.naver.com/marketkurly" target="_blank">
+						<img src="https://res.kurly.com/pc/ico/1810/ico_blog.png" width="30px" height="30px"></a>
+					</li>
+					<li class="sns">
+						<a href="https://m.post.naver.com/marketkurly" target="_blank">
+						<img src="https://res.kurly.com/pc/ico/1810/ico_naverpost.png" width="30px" height="30px"></a>
+					</li>
+					<li class="sns">
+						<a href="https://www.youtube.com/channel/UCfpdjL5pl-1qKT7Xp4UQzQg" target="_blank">
+						<img src="https://res.kurly.com/pc/ico/1810/ico_youtube.png" width="30px" height="30px"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-down">
+			<div class="footer-link">
+				<a href="https://res.kurly.com/pc/img/1909/img_isms.jpg" class="logo-link" target="_blank">
+					<img src="https://res.kurly.com/pc/ico/2001/logo_isms.png" class="logo-img" width="34px">
+					<p class="logo-txt">[인증법위] 마켓컬리 쇼핑몰 서비스 개발·운영
+				    <br>
+				    [유효기간]2019.04.01 ~ 2022.03.31</p>
+				</a>
+				<a href="https://www.eprivacy.or.kr/front/certifiedSiteMark/certifiedSiteMarkPopup.do?certCmd=EP&certNum=2021-EP-R003" class="logo-link" target="_blank">
+					<img src="https://res.kurly.com/pc/ico/2001/logo_eprivacyplus.png" class="logo-img" width="34px">
+					<p class="logo-txt">개인정보보호 우수 웹사이트 ·
+				    <br>
+				    개인정보처리시스템 인증(ePRIVACYPLUS)</p>
+				</a>
+				<a href="http://pgweb.uplus.co.kr/ms/escrow/s_escrowYn.do?mertid=go_thefarmers" class="logo-link" target="_blank">
+					<img src="https://res.kurly.com/pc/service/main/2009/logo_payments.png" class="logo-img" width="102px">
+					<p class="logo-txt">고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
+				    <br>
+				    토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.</p>
+				</a>
+
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="followingEventS">
+      <div class="followingEvent">
+        <center><img src="https://res.kurly.com/pc/service/main/1904/bnr_quick_20190403.png" width="85" height="150"></center>
+        <center><ul class="followingEventB">
+          <li><a href="#">등급별 혜택</a></li>
+          <li><a href="#">레시피</a></li>
+          <li><a href="#">베스트 후기</a></li>
+        </ul></center>
+      </div>
+    </div> 
+</body>
+</html>
