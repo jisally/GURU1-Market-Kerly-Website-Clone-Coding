@@ -1,4 +1,4 @@
-https://github.com/jisally/guru1final_marketkurly/assets/83489449/372fef70-25d3-4352-bdb9-f8967afc2d97
+https://github.com/jisally/guru1final_marketkurly/assets/83489449/11c5b661-b24e-40e5-bb5b-4f8f33b6a2b7
 
 
 
